@@ -17,4 +17,11 @@ public class HelloTest extends TestCase {
 	String actualOutput = testObject.greet();
 	assertTrue(expectedOutput.equals(actualOutput));
     }
+    public void testGreetJay(){
+	expectedName = "Jay";
+	testObject = new Hello(expectedName);
+	String expectedOutput = expectedGreeting + " " + expectedName;
+	String actualOutput = testObject.greet();
+	assertTrue(expectedOutput.equals(actualOutput));
+    }
 }
