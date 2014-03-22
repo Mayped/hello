@@ -3,6 +3,9 @@ public class Hello {
 	Hello objHello = new Hello();
 	String s = objHello.greet();
 	System.out.println(s);
+	Hello objHello2 = new Hello("Jay");
+	s = objHello2.greet();
+	System.out.println(s);
     }
 
     private String name;
@@ -10,6 +13,10 @@ public class Hello {
     public Hello() {
 	greeting = "Hello";
 	name = "World";
+    }
+    public Hello(String name) {
+	greeting = "Hello";
+	this.name = name;
     }
     public String greet() {
 	return greeting + " " + name;
