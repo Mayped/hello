@@ -9,7 +9,7 @@ public class Hello {
     private String greeting;
     public Hello() {
 	greeting = "Hello";
-	name = "Jay";
+	name = "World";
     }
     public String greet() {
 	return greeting + " " + name;
