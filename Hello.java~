@@ -4,7 +4,7 @@ public class Hello {
 	String s = objHello.greet();
 	System.out.println(s);
 	Hello objHello2 = new Hello("Jay");
-	s = objHello.greet();
+	s = objHello2.greet();
 	System.out.println(s);
     }
 

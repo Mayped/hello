@@ -3,7 +3,7 @@ public class Hello {
 	Hello objHello = new Hello();
 	String s = objHello.greet();
 	System.out.println(s);
-	Hello objHello2 = new Hello("Jay");
+	Hello objHello2 = new Hello("Kay");
 	s = objHello2.greet();
 	System.out.println(s);
     }
