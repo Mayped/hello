@@ -1,3 +1,7 @@
+/**
+ * Hello
+ * @author Jay Fenwick
+ */
 public class Hello {
     public static void main(String[] args) {
 	Hello objHello = new Hello();
