@@ -16,6 +16,7 @@ hello: Hello.class
 	$(JAVA) Hello
 
 hellotest: HelloTest.java Hello.java $(JUNIT)
+	rm -f *.class
 	$(JAVAC) -cp ./:$(JUNIT) HelloTest.java
 	$(JAVA) -cp ./:$(JUNIT) junit.textui.TestRunner HelloTest
 
