@@ -15,7 +15,7 @@ default:
 hello: Hello.class
 	$(JAVA) Hello
 
-hellotest: HelloTest.java Hello.class $(JUNIT)
+hellotest: HelloTest.java Hello.java $(JUNIT)
 	$(JAVAC) -cp ./:$(JUNIT) HelloTest.java
 	$(JAVA) -cp ./:$(JUNIT) junit.textui.TestRunner HelloTest
 
