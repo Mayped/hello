@@ -16,7 +16,7 @@ public class Hello {
     }
     public Hello(String name) {
 	greeting = "Hello";
-	this.name = name;
+	name = name;//this.name = name;
     }
     public String greet() {
 	return greeting + " " + name;
